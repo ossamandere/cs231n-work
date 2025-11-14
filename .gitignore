@@ -1,0 +1,85 @@
+# Python virtual environment
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Distribution / packaging
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# RL-specific: Model checkpoints and saved models
+*.pt
+*.pth
+*.h5
+*.pkl
+*.pickle
+checkpoints/
+models/
+saved_models/
+weights/
+
+# RL-specific: Training logs and results
+logs/
+runs/
+tensorboard/
+tb_logs/
+wandb/
+*.log
+
+# RL-specific: Replay buffers (can be huge)
+replay_buffers/
+buffers/
+*.buffer
+
+# RL-specific: Rendered videos and gifs
+videos/
+renders/
+*.mp4
+*.gif
+*.avi
+
+# RL-specific: Experiment results
+results/
+experiments/
+outputs/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
